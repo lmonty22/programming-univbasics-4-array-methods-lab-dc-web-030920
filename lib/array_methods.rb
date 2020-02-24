@@ -1,3 +1,3 @@
 def using_include (array, element)
-  array.find(element)
+  array.include?(element)
 end
